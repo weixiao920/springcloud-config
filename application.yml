@@ -1,15 +1,15 @@
 spring:
-   profiles:
-      active:
-      - dev
+  profiles:
+    active:
+    - dev
 ---
 spring:
-   profiles: dev #开发环境
-      application: 
-	 name: springcloud-config-wang-dev
+  profiles: dev #开发环境
+    application:
+      name: springcloud-config-wang-dev
 ---
 spring:
-   profiles: test#测试环境
-      application: 
-	 name: springcloud-config-wang-test
+  profiles: test#测试环境
+    application:
+      name: springcloud-config-wang-test
 #utf-8格式保存
