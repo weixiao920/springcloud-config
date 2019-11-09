@@ -6,10 +6,10 @@ spring:
 spring:
    profiles: dev #开发环境
       application:
-	name: springcloud-config-wang-dev
+	 name: springcloud-config-wang-dev
 ---
 spring:
    profiles: test#测试环境
       application:
-	name: springcloud-config-wang-test
+	 name: springcloud-config-wang-test
 #utf-8格式保存
